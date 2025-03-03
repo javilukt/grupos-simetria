@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+venv/
+env/
+ENV/
+venv_nuevo/
+
+
+# Data (opcional, considera si quieres versionar tus datos)
+data/raw/
+data/processed/
+
+# Ignorar todos los archivos con la extensión .xyz en cualquier directorio
+*.xyz
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
